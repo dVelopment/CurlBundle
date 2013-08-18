@@ -1,0 +1,26 @@
+{
+    "name": "dvelopment/curl-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Bundle for making Curl requests to external hosts",
+    "keywords": ["symfony", "curl"],
+    "homepage": "https://github.com/dVelopment/CurlBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Holzmann",
+            "email": "d@velopment.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.1",
+        "jms/serializer-bundle": "master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {"DVelopment\\CurlBundle": ""}
+    },
+    "minimum-stability": "dev",
+    "target-dir": "DVelopment/CurlBundle"
+}
