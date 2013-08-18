@@ -14,15 +14,14 @@
     "require": {
         "php": ">=5.3.3",
         "dvelopment/curl": "master",
-        "symfony/framework-bundle": "~2.1",
-        "jms/serializer-bundle": "master",
-        "symfony/yaml": "~2.1"
+        "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
+        "phpunit/phpunit": "3.7.*",
         "symfony/class-loader": "~2.1"
     },
     "autoload": {
-        "psr-0": {"DVelopment\\CurlBundle": ""}
+        "psr-0": {"DVelopment\\CurlBundle\\": ""}
     },
     "minimum-stability": "dev",
     "target-dir": "DVelopment/CurlBundle"
