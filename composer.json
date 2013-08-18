@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Symfony2 Bundle for making Curl requests to external hosts",
     "keywords": ["symfony", "curl"],
-    "homepage": "https://github.com/dVelopment/CurlBundle",
+    "homepage": "https://bitbucket.org/dVelopment/curlbundle",
     "license": "MIT",
     "authors": [
         {
